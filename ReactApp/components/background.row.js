@@ -26,22 +26,21 @@ import AppStyles from '../styles'
 import AppConfig from '../config'
 
 /* Component ==================================================================== */
-class ListRow extends Component {
+class BackgroundRow extends Component {
   static propTypes = {
-    onPress: React.PropTypes.func.isRequired,
-    title: React.PropTypes.string.isRequired,
+    
     image: React.PropTypes.string,
   }
 
   static defaultProps = {
-    title: 'Lorem Ipsum',
+    image: 'http://lorempixel.com/g/1000/250/nature',
   }
 
   /**
     * RENDER
     */
   render = () => {
-    let { title, image, onPress } = this.props;
+    let {image} = this.props;
 
     if(image) {
       return (
@@ -89,10 +88,10 @@ const styles = StyleSheet.create({
 
   // With Image
   imageBackground: {
-    backgroundColor: "yellow",
+    backgroundColor: "blue",
   },
   imageBackground_image: {
-    height: AppConfig.windowHeight / 4,
+    height: AppConfig.windowHeight / 1,
     flexDirection: 'row',
     flexWrap: 'nowrap',
     justifyContent: 'center',
@@ -102,4 +101,4 @@ const styles = StyleSheet.create({
 });
 
 /* Export Component ==================================================================== */
-export default ListRow
+export default BackgroundRow

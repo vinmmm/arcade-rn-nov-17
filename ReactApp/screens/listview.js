@@ -29,39 +29,39 @@ import Screen from './soon'
 // Demo data
 const defaultData = [
   {
-    title: 'Lorem ipsum adipiscing',
+    title: 'Joust',
     summary: 'A vivamus neque consectetur parturient mi nisl proin molestie vestibulum in fames condimentum cum a.',
-    image: 'http://lorempixel.com/g/1000/250/nature',
+    image: '/Users/vinmmm/Desktop/react-native-starter-app/ReactApp/images/joust223-1.jpg',
   },
   {
-    title: 'Guim petis',
+    title: 'Castlevana',
     summary: 'A vivamus neque consectetur parturient mi nisl proin molestie vestibulum in fames condimentum cum a.',
-    image: 'http://lorempixel.com/g/1000/250/animals',
+    image: '/Users/vinmmm/Desktop/react-native-starter-app/ReactApp/images/castlevania-1.jpg',
   },
   {
-    title: 'Filos be amik',
+    title: 'Ghosts and Goblins',
     summary: 'A vivamus neque consectetur parturient mi nisl proin molestie vestibulum in fames condimentum cum a.',
-    image: 'http://lorempixel.com/g/1000/250/transport',
+    image: '/Users/vinmmm/Desktop/react-native-starter-app/ReactApp/images/ghosts-and-goblins.jpg',
   },
   {
-    title: 'Mi a adipiscing',
+    title: 'Star Wars',
     summary: 'A vivamus neque consectetur parturient mi nisl proin molestie vestibulum in fames condimentum cum a.',
-    image: 'http://lorempixel.com/g/1000/250/nightlife',
+    image: '/Users/vinmmm/Desktop/react-native-starter-app/ReactApp/images/starwars.png',
   },
   {
-    title: 'Ching vivamus le',
+    title: 'Qbert',
     summary: 'A vivamus neque consectetur parturient mi nisl proin molestie vestibulum in fames condimentum cum a.',
-    image: 'http://lorempixel.com/g/1000/250/food',
+    image: '/Users/vinmmm/Desktop/react-native-starter-app/ReactApp/images/qbertScreen.jpg',
   },
   {
-    title: 'Parturinent my proin',
+    title: 'Super Street Fighter',
     summary: 'A vivamus neque consectetur parturient mi nisl proin molestie vestibulum in fames condimentum cum a.',
-    image: 'http://lorempixel.com/g/1000/250/fashion',
+    image: '/Users/vinmmm/Desktop/react-native-starter-app/ReactApp/images/bison-vs-ryu.jpg',
   },
   {
-    title: 'Vestibulum in fames',
+    title: 'Kung Fu',
     summary: 'A vivamus neque consectetur parturient mi nisl proin molestie vestibulum in fames condimentum cum a.',
-    image: 'http://lorempixel.com/g/1000/250/business',
+    image: '/Users/vinmmm/Desktop/react-native-starter-app/ReactApp/images/kung-fu.png',
   },
 ];
 

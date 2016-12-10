@@ -34,7 +34,7 @@ class Loading extends Component {
     if (transparent) colorOfSpinner = "#000";
 
     return (
-      <View style={[AppStyles.container, AppStyles.containerCentered, transparent && {backgroundColor: 'rgba(255,255,255,0.75)'} ]}>
+      <View style={[AppStyles.container, AppStyles.containerCentered, transparent && {backgroundColor: 'pink'} ]}>
         <ActivityIndicator animating={true} size="large"
           color={colorOfSpinner} />
 

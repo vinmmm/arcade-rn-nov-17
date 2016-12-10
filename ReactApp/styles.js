@@ -17,7 +17,7 @@ import AppConfig from './config';
 /* Styles ==================================================================== */
 module.exports = StyleSheet.create({
 	appContainer: {
-    backgroundColor: "#000",
+    backgroundColor: "black",
 	},
 
 	/* Default */
@@ -25,11 +25,12 @@ module.exports = StyleSheet.create({
     position: 'relative',
     flex: 1,
     flexDirection: 'column',
-    backgroundColor: '#FFFFFF',
+    backgroundColor: 'black',
   },
   containerCentered: {
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: 'red',
   },
   windowSize: {
     height: AppConfig.windowHeight,
@@ -161,7 +162,7 @@ module.exports = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: AppConfig.borderColor,
     height: 1,
-    backgroundColor: 'transparent',
+    backgroundColor: 'green',
     marginTop: 20,
     marginBottom: 20,
   },
@@ -232,6 +233,6 @@ module.exports = StyleSheet.create({
     paddingVertical: 4,
     paddingHorizontal: 10,
     marginBottom: 10,
-    backgroundColor: "#fff",
+    backgroundColor: "orange",
   },
 });

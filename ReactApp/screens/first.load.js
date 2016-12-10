@@ -22,6 +22,7 @@ import AppConfig from '../config'
 
 // Components
 import Button from '../components/button'
+import ListRow from '../components/list.row'
 
 // Screens
 import Form from './forms'
@@ -54,6 +55,11 @@ class FirstLoad extends Component {
   render = () => {
     return (
       <View style={[AppStyles.container, styles.containerCover]}>
+       <ListRow 
+            title={''}
+            image={'/Users/vinmmm/Desktop/react-native-starter-app/ReactApp/images/Artwork2.png'}
+            onPress={()=>{alert('Go To Entry View')}} />
+        
       	<View style={[AppStyles.paddingHorizontal]}>
           <Text style={[AppStyles.baseText, AppStyles.p, AppStyles.centered]}>
             Sign Up Now!
@@ -85,7 +91,7 @@ class FirstLoad extends Component {
 const styles = StyleSheet.create({
 	containerCover: {
 		marginTop: -AppConfig.navbarHeight,
-		backgroundColor: "#FFF",
+		backgroundColor: "black",
 		justifyContent: 'center',
 	},
 });

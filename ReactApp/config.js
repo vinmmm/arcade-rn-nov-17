@@ -39,8 +39,9 @@ export default {
 	baseFontSize: 14,
 
 	// Colors
-	primaryColor: "#4099FF",
-	secondaryColor: "#FFE229",
+	primaryColor: "black",
+	secondaryColor: "purple",
 	textColor: "#555",
 	borderColor: "#E7E7E7",
+	
 }
